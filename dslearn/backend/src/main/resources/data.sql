@@ -22,3 +22,7 @@ INSERT INTO tb_resource (title, description, position, img_uri, type, offer_id) 
 INSERT INTO tb_resource (title, description, position, img_uri, type, offer_id) VALUES ('Fórum', 'Tire suas dúvidas', 2, 'https://cdn.pixabay.com/photo/2015/02/22/17/46/forum-645246_1280.jpg', 2, 1);
 INSERT INTO tb_resource (title, description, position, img_uri, type, offer_id) VALUES ('Lives', 'Lives exclusivas para a turma', 3, 'https://cdn-icons-png.flaticon.com/512/327/327002.png', 0, 1);
 
+INSERT INTO tb_section (title, description, position, img_uri, resource_id, prerequisite_id) VALUES ('Capítulo 01', 'Introdução ao Curso', 1, 'https://intentus.com.br/wp-content/uploads/2021/05/Start-Logo-e-botao-verde-1.png', 1, null);
+INSERT INTO tb_section (title, description, position, img_uri, resource_id, prerequisite_id) VALUES ('Capítulo 02', 'Neste capítulo vamos continuar o curso', 2, 'https://scribemedia.com/wp-content/uploads/2019/05/Scribe_HowLongShouldChaptersBe_Thumbnail-700x406.jpg', 1, 1);
+INSERT INTO tb_section (title, description, position, img_uri, resource_id, prerequisite_id) VALUES ('Capítulo 03', 'Neste capítulo iremos finalizar o curso', 3, 'https://1.bp.blogspot.com/-GkF9Gx2poRo/XRu6srGMDtI/AAAAAAAAJcA/gn7aWhvabNcMoDclivZ68TFJKh4OzBxMACLcBGAs/s1600/all.jpg', 1, 2);
+
