@@ -26,3 +26,5 @@ INSERT INTO tb_section (title, description, position, img_uri, resource_id, prer
 INSERT INTO tb_section (title, description, position, img_uri, resource_id, prerequisite_id) VALUES ('Capítulo 02', 'Neste capítulo vamos continuar o curso', 2, 'https://scribemedia.com/wp-content/uploads/2019/05/Scribe_HowLongShouldChaptersBe_Thumbnail-700x406.jpg', 1, 1);
 INSERT INTO tb_section (title, description, position, img_uri, resource_id, prerequisite_id) VALUES ('Capítulo 03', 'Neste capítulo iremos finalizar o curso', 3, 'https://1.bp.blogspot.com/-GkF9Gx2poRo/XRu6srGMDtI/AAAAAAAAJcA/gn7aWhvabNcMoDclivZ68TFJKh4OzBxMACLcBGAs/s1600/all.jpg', 1, 2);
 
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_moment, refund_moment, available, only_update) VALUES (1, 1, TIMESTAMP WITH TIME ZONE '2020-11-20T13:00:00Z', null, true, false);
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_moment, refund_moment, available, only_update) VALUES (2, 1, TIMESTAMP WITH TIME ZONE '2020-11-20T13:40:00Z', null, true, false);
