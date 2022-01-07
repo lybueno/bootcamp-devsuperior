@@ -61,7 +61,7 @@ O bootcamp aborda as seguintes competências:
 - Dicas para Postman
 - Variáveis de ambiente no projeto com coalescência
 
-### Capítulo 04: Domínio e ORM, autorizações :memo:
+### Capítulo 04: Domínio e ORM, autorizações :heavy_check_mark:
 - Domínio e ORM
   - Implementação de um modelo de domínio complexo (projeto DSLearn)
   - Instanciação (seed) de um modelo de domínio com SQL
@@ -71,7 +71,7 @@ O bootcamp aborda as seguintes competências:
   - Refresh token
   - Pré-autorização de métodos
   
-### Capítulo 05: Consultas ao banco de dados
+### Capítulo 05: Consultas ao banco de dados :memo:
 - SQL e JPQL
   - Revisão SQL, referências, exercícios
   - Estudos de caso SQL e JPQL
