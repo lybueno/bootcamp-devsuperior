@@ -71,7 +71,7 @@ O bootcamp aborda as seguintes competências:
   - Refresh token
   - Pré-autorização de métodos
   
-### Capítulo 05: Consultas ao banco de dados :memo:
+### Capítulo 05: Consultas ao banco de dados :heavy_check_mark:
 - SQL e JPQL
   - Revisão SQL, referências, exercícios
   - Estudos de caso SQL e JPQL
@@ -85,7 +85,7 @@ O bootcamp aborda as seguintes competências:
   - Estudo de caso: busca detalhada com parâmetros opcionais e paginação
   - Problema N+1 consultas
   
-### Capítulo 06: Docker, implantação, CI/CD
+### Capítulo 06: Docker, implantação, CI/CD :memo:
 - Docker
   - Conceitos
   - Comandos
