@@ -85,7 +85,7 @@ O bootcamp aborda as seguintes competências:
   - Estudo de caso: busca detalhada com parâmetros opcionais e paginação
   - Problema N+1 consultas
   
-### Capítulo 06: Docker, implantação, CI/CD :memo:
+### Capítulo 06: Docker, implantação, CI/CD :heavy_check_mark:
 - Docker
   - Conceitos
   - Comandos
@@ -104,7 +104,7 @@ O bootcamp aborda as seguintes competências:
   - Stage de homologação
   - Elastic Beanstalk
   
-### Capítulo 07: Layout e navegação
+### Capítulo 07: Layout e navegação :heavy_check_mark:
 - ReactJS
   - Criação de projeto
   - Estrutura do projeto
@@ -123,7 +123,7 @@ O bootcamp aborda as seguintes competências:
   - React Router DOM
   - Rotas e links
 
-### Capítulo 08: Integração com API
+### Capítulo 08: Integração com API :memo:
 - Props
 - Mais sobre layout
   - Tela ProductDetails
