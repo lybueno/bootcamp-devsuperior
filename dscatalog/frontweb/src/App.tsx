@@ -1,10 +1,12 @@
 import './assets/styles/custom.scss';
 import './App.css';
-import Home from './pages/Home';
+import Routers from 'Routers';
 
-const App = () => {
+
+
+function App () {
   return (
-    <Home />
+    <Routers />
   );
 };
 
