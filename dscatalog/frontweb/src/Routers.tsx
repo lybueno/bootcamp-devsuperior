@@ -2,6 +2,7 @@ import Navbar from "components/Navbar";
 import Admin from "pages/Admin";
 import Catalog from "pages/Catalog";
 import Home from "pages/Home";
+import ProductDetails from "pages/ProductDetails";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const Routers = () => {
@@ -15,6 +16,9 @@ const Routers = () => {
             </Routes>   
             <Routes>
                 <Route path="products" element={<Catalog/>} /> 
+            </Routes> 
+            <Routes>
+                <Route path="products/:productId" element={<ProductDetails/>} /> 
             </Routes> 
             <Routes>
                 <Route path="admin" element={<Admin/>} /> 
