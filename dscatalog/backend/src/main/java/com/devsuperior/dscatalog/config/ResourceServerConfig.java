@@ -69,6 +69,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 		source.registerCorsConfiguration("/**", corsConfig);
 		return source;
 	}
+	
 	@Bean
 	public FilterRegistrationBean<CorsFilter> corsFilter() {
 		FilterRegistrationBean<CorsFilter> bean
