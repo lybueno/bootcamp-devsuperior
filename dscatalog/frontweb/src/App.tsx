@@ -1,6 +1,6 @@
 import './assets/styles/custom.scss';
 import './App.css';
-import Routers from 'Routers';
+import Routers from 'Routes';
 
 
 
