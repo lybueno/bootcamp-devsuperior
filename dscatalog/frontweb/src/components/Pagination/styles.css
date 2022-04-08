@@ -19,7 +19,7 @@
     margin-left: 10px;
 }
 
-.pagination-item .active {
+.pagination-item.active {
     background-color: #407BFF;
 }
 
