@@ -1,7 +1,6 @@
 import { ReactComponent as MainImage } from 'assets/images/main-image.svg';
 import { Link } from 'react-router-dom';
 import ButtonIcon from '../../components/ButtonIcon';
-import Navbar from '../../components/Navbar';
 import './styles.css';
 
 const Home = () => {
