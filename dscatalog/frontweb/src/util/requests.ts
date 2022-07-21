@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios, { AxiosRequestConfig } from 'axios';
 import qs from 'qs';
 
 type LoginResponse = {
@@ -39,6 +39,17 @@ export const requestBackendLogin = (loginData : LoginData) => {
 
     return axios({method: 'POST', baseURL: BASE_URL, url: '/oauth/token', data, headers})
 }
+
+export const requestBackend = (config: AxiosRequestConfig) => {
+
+    // utilizo o spread operator (...) config para não perder os headers se já houver e acrescento o Authorization
+    const headers = config.withCredentials ? {
+        ...config.headers,
+        Authorization: "Bearer " + getAuthData().access_token
+    } : config.headers;
+
+    return axios({...config, baseURL: BASE_URL, headers});
+};
 
 export const saveAuthData = (obj : LoginResponse) => {
     // stringify = transformar o objeto em JSON na forma de texto
