@@ -123,7 +123,7 @@ O bootcamp aborda as seguintes competências:
   - React Router DOM
   - Rotas e links
 
-### Capítulo 08: Integração com API :memo:
+### Capítulo 08: Integração com API :heavy_check_mark:
 - Props
 - Mais sobre layout
   - Tela ProductDetails
@@ -144,7 +144,7 @@ O bootcamp aborda as seguintes competências:
   - Manipulação do estado do formulário
   - Submissão de formulário
 
-### Capítulo 09: Autenticação e autorização
+### Capítulo 09: Autenticação e autorização :memo:
 - Formulários
   - React Hook Form
   - Validação de formulário, expressões regulares
